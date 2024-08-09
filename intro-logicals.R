@@ -60,7 +60,7 @@ beach == mesa
 
 # some new things: != stands for 'does this thing NOT equal this other thing?' NOT
 # & stands for 'are both of these things true/false together?' AND
-# pipe character stands for OR
+# pipe character stands for OR.
 
 beach != mesa
 
@@ -74,6 +74,31 @@ bananas <- c(10,21,12,15,22)
 apples <- c(9,18,16,20,30)
 
 apples < bananas&bananas > 20
+
+# this below is an OR problem, but only one side has to be true to give a TRUE output. "Is one true or is the other true?"
+
+4<10 | 100<2
+
+# another with more elements, one of these is true and so we get a TRUE output
+
+5>6 | "dog"<"cat" | 10<50
+
+5!=6
+
+6!=6
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
